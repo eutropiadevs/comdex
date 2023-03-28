@@ -1,3 +1,9 @@
+// cards
+import composable from '../assets/img/composable.png'
+import dev from '../assets/img/dev.png'
+import secure from '../assets/img/secure.png'
+
+
 import book from '../assets/img/primary.png'
 import time from '../assets/img/Time.png'
 import record from '../assets/img/Vector.png' 
@@ -175,3 +181,25 @@ export const image = [
         src: ell14,
     },
 ]
+
+
+export const table = [
+	{
+		id: 1,
+		icon: secure,
+		title: "Secure",
+		text: `Build secure DeFi applications by leveraging the security of the Comdex chain, powered by the CMDX token. Built using Cosmos SDK and Cosmwasm, users can utilise modules on the Comdex chain to seamlessly deploy dApps to the chain.`,
+	},
+	{
+		id: 2,
+		icon: composable,
+		title: "Composable",
+		text: `An all encompassing DeFi focussed chain to ensure all governance and development is designed for optimal synergy between all the application built on the chain.`,
+	},
+	{
+		id: 3,
+		icon: dev,
+		title: "Composable",
+		text: `All dApps bults on the Comdex chain are fully interoperable across the IBC and composable to enhance DeFi user experience and deliver seamless access to the ecosystem of products.`,
+	},
+];

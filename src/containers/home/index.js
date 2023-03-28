@@ -6,6 +6,9 @@ import Ecosystem from "../../components/allEcosystem";
 import Row from "../../components/row";
 import Validator from "../../components/validators";
 import Icons from "../../components/icons";
+import Cards from "../../components/cards";
+import Company from "../../components/company";
+import ComCards from "../../components/comCards";
 
 const Home = () => {
   return (
@@ -35,6 +38,9 @@ const Home = () => {
 			<Row />
 			<Icons />
 			<Validator />
+      <Cards/>
+      <Company/>
+      <ComCards/>
 		</>
 	);
 };

@@ -1,37 +1,93 @@
-.validator-section{
-    &_main{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-        // height: 160vh;
-        &-first{
-            border: 1px solid #fff;
-            flex: 0 1 32rem;
-            img{
-                width: 10rem;
-            }
+
+@media (max-width: 750px){
+    .validator-section{
+        &_main{
+            flex-direction: column;
+            width: 100%;
         }
         .vertical-line {
-  border-left: 1px solid rgb(237, 235, 235);
- height: 30vh;
-  margin: 0 1rem; 
-}
-        &-second{
-            border: 1px solid #fff;
-            flex: 0 1 32rem;
-
-            .validator-img{
-                display: grid;
-                grid-template-columns: repeat(7, 1fr);
-                .image{
-                    img{
-                        width: 2.4rem;
-                        height: 2.4rem;
-                    }
-
-                }
-            }
+            display: none;
         }
     }
+}
+
+
+.validator-section {
+	&_main {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+		height: 50rem;
+		&-first {
+			// border: 1px solid #fff;
+			flex: 0 1 32rem;
+			img {
+				width: 85%;
+			}
+			h2 {
+				margin: 2rem 0;
+				span {
+					font-size: 1rem;
+					font-weight: 500;
+				}
+			}
+			p {
+				font-size: 0.8rem;
+				font-weight: 500;
+				line-height: 1rem;
+				margin: 3rem 1rem;
+			}
+			.btn {
+				button {
+					border: 1px solid #fff;
+					background: transparent;
+				}
+			}
+		}
+		.vertical-line {
+			border-left: 1px solid rgb(237, 235, 235);
+			height: 30vh;
+			margin: 0 1rem;
+		}
+		&-second {
+			// border: 1px solid #fff;
+			flex: 0 1 32rem;
+        
+        img{
+            width: 4.8rem;
+            margin: .4rem 0;
+        }
+			.validator-img {
+				display: grid;
+				grid-template-columns: repeat(7, 3.5rem);
+                justify-items: center;
+                justify-content: center;
+                
+                margin: 1.5rem 0;
+				img {
+					
+						width: 2.6rem;
+						height: 2.6rem;
+                        margin-top: .4rem;
+				}
+			}
+            .validates{
+                display: flex;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                gap: .1rem;
+                margin: 1rem 0;
+                h5{
+                    font-size: 1rem;
+                    margin-top: .7rem;
+                }
+                hr{
+                    width: 5rem;
+                    
+                }
+            }
+		}
+	}
 }

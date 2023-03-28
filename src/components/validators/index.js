@@ -30,27 +30,26 @@ const Validator = () => {
 					</div>
 					<div className="vertical-line"></div>
 					<div className="validator-section_main-second">
-						<div>
+						<div className="validates">
 							<h5>Validators</h5>
 							<hr />
 						</div>
 						<div className="validator-img">
 							{image.map((item) => {
 								return (
-									<div key={item.id} className="image">
-										<img src={item.src} alt='img'/>
-									</div>
+									// <div key={item.id} className="image">
+									<img src={item.src} alt="img" className="image" />
+									// </div>
 								);
 							})}
 						</div>
 						<h5>+42 More</h5>
-						<div className="validator-section_main-second">
-							<div>
-								<h5>Security Audits</h5>
-								<hr />
-							</div>
-							<img src={rect} alt="img" />
+
+						<div className="validates">
+							<h5>Security Audits</h5>
+							<hr />
 						</div>
+						<img src={rect} alt="img" />
 					</div>
 				</div>
 			</div>

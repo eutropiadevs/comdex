@@ -1,0 +1,32 @@
+@import '../../assets/variables.scss';
+
+.secure-section{
+    border: .8px solid #0b114e;
+    background-color: #0b114e;
+    border-radius: 18px;
+    width: 18em;
+    height: 17rem;
+    padding: .4rem;
+    .img-section{
+        background: $white;
+        border-radius: 50%;
+        width: 3rem;
+        display: inline-block;
+        height: 3rem;
+        text-align: center;
+        margin: 1.5rem auto;
+        padding-top: .5rem;
+        img{
+            width: 1.5rem;
+        }
+    }
+    h2{
+        font-size: 1.3rem;
+    }
+    p{
+        font-size: .7rem;
+        line-height: 1rem;
+        font-weight: 300;
+        margin: 1rem .7rem;
+    }
+}

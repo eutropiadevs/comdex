@@ -1,0 +1,13 @@
+.company-section{
+    .companies{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem 0;
+        gap: 3rem;
+        img{
+            width: 9rem;
+            height: 2rem;
+        }
+    }
+}
