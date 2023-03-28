@@ -1,0 +1,21 @@
+.card-section{
+    width: 15rem;
+    &_main{
+        border: 1px solid #302f2f;
+        border-radius: 7px;
+        padding: .8rem;
+        span{
+            font-size: 1.3rem;
+        }
+        h2{
+            font-size: 1.4rem;
+            padding: .2rem 0;
+        }
+        p{
+            font-size: .8rem;
+            font-weight: 200;
+            // padding-top: .4rem;
+            line-height: 1rem;
+        }
+    }
+}

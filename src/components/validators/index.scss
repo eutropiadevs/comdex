@@ -1,0 +1,28 @@
+.validator-section{
+    &_main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        &-first{
+            border: 1px solid #fff;
+            flex: 0 1 32rem;
+        }
+        &-second{
+            border: 1px solid #fff;
+            flex: 0 1 32rem;
+
+            .validator-img{
+                display: grid;
+                grid-template-columns: repeat(7, 1fr);
+                .image{
+                    img{
+                        width: 2.4rem;
+                        height: 2.4rem;
+                    }
+
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+.icon-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &_main{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 2rem;
+    .single-icon {
+        // border: 1px solid #fff;
+       
+        border-radius: 50%;
+    } 
+   
+    }
+    .btn{
+        margin: 3rem 0;
+    }
+}
+@media (max-width: 750px){
+    .icon-section{
+        &_main{
+            flex-wrap: wrap;
+        }
+    }
+}
