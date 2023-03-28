@@ -4,10 +4,16 @@
         justify-content: center;
         align-items: center;
         text-align: center;
+        height: 160vh;
         &-first{
             border: 1px solid #fff;
             flex: 0 1 32rem;
         }
+        .vertical-line {
+  border-left: 1px solid rgb(237, 235, 235);
+ height: 30vh;
+  margin: 0 1rem; 
+}
         &-second{
             border: 1px solid #fff;
             flex: 0 1 32rem;
