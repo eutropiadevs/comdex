@@ -6,6 +6,7 @@ import RowReverse from '../../components/rowReverse';
 import StakeCard from '../../components/stake';
 import Validator from '../../components/validators';
 import { card } from '../../utils/Items';
+import { item, simple } from '../../utils/section';
 import './index.scss'
 
 const Introduction = () => {
@@ -24,7 +25,7 @@ const Introduction = () => {
 					<button>Learn More</button>
 				</div>
 			</div>
-			<RowReverse />
+			{/* <RowReverse /> */}
 			<Validator />
 			<Plug />
 			<div className="stake-cards">
@@ -34,6 +35,14 @@ const Introduction = () => {
 			</div>
             <MainSection/>
             <EcoCard/>
+            {simple.map(item=>{
+                return <RowReverse {...item} key={item.id}/>;
+            })}
+            
+
+            {item.map(item=>{
+                return <RowReverse {...item} key={item.id}/>
+            })}
 		</>
 	);
 }

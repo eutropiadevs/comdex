@@ -38,10 +38,16 @@
 }
 .open-modal{
     position: absolute;
-    left: -200%;
-    top: 250%;
+    left: -150%;
+    top: 170%;
 }
 .modal-btn{
     position: relative;
-  
+  button{
+    background: transparent;
+    border: none;
+    font-size: 1rem;
+   width: 7rem;
+   cursor: pointer;
+  }
 }

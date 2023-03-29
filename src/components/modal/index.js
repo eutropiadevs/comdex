@@ -7,23 +7,24 @@ import { Link } from "react-router-dom";
 const Modal = () => {
 	const [isModalOpen, setIsModalOpen] = useState(false);
 
-	function handleOpenModal() {
-      
+	function handleOpenModal(e) {
+      e.preventDefault();
 		setIsModalOpen(true);
 	}
 
-	// function handleCloseModal() {
-	// 	setIsModalOpen(false);
-	// }
+	function handleCloseModal(e) {
+        e.preventDefault();
+		setIsModalOpen(false);
+	}
 
 	return (
 		<>
 			<div className="modal-btn">
-				<a href="/" onClick={handleOpenModal}>Individuals</a>
+				<button onClick={handleOpenModal}>Individuals</button>
 				<div className="open-modal">
 					{isModalOpen && (
 						<div className="open-modal_section">
-							<span onClick={()=>setIsModalOpen(false)}>&#9747;</span>
+							<span onClick={handleCloseModal}>&#9747;</span>
 							<div className="open-modal_section-title">
 								<h4>Individuals</h4>
 								<h4>Developers</h4>

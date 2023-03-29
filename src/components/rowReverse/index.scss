@@ -6,7 +6,7 @@
     max-width: 80vw;
     margin: auto;
     &_first{
-       width: 23rem;
+       width: 33rem;
        h2{
         font-size: 2.5rem;
        }
@@ -16,6 +16,31 @@
         padding: 1rem 0;
         line-height: 1.4rem;
        }
+
+
+
+         .first-flex{
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        h3{
+          
+            background: blueviolet;
+            padding: .8rem;
+            border-radius: 50%;
+        }
+        .title{
+            h2{
+                font-size: 2rem;
+               
+            }
+        }
+       }
+
+
+
+
+
     }
 }
 .rowreverse-sections{
@@ -24,10 +49,10 @@
     justify-content: space-between;
     align-items: center;
     height: 90vh;
-    max-width: 80vw;
+    max-width: 90vw;
     margin: auto;
     &_first{
-       width: 23rem;
+       width: 33rem;
        h2{
         font-size: 2.5rem;
        }
@@ -37,5 +62,27 @@
         padding: 1rem 0;
         line-height: 1.4rem;
        }
+     
+
+      .first-flex{
+        display: flex;
+        align-items: flex-start;
+        gap: 1rem;
+        h3{
+          
+            background: blueviolet;
+            padding: .8rem;
+            border-radius: 50%;
+        }
+        .title{
+            h2{
+                font-size: 2rem;
+               
+            }
+        }
+       }
+
+
+
     }
 }
