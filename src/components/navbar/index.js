@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 import './index.scss';
 import logo from '../../assets/img/logo.png'
+import Modal from '../modal';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
@@ -28,7 +29,7 @@ const Navbar = () => {
 							}`}
 						>
 							<li className="nav-item">
-								<a href="/">Individuals</a>
+								<a href="/"><Modal/></a>
 							</li>
 							<li className="nav-item">
 								<a href="/marketPlace">Developers</a>

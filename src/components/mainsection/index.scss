@@ -1,0 +1,21 @@
+.mainsection{
+    max-width: 80vw;
+   margin: auto;
+    &-sub{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         height: 70rem;
+        &_first{
+            flex: 0 1 40rem;
+            h1{
+                font-size: 4rem;
+            }
+            p{
+                font-size: .9rem;
+                line-height: 1.5rem;
+                padding: 1rem 0;
+            }
+        }
+    }
+}

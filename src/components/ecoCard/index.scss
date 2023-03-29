@@ -1,0 +1,40 @@
+.ecocard-section{
+    &_main{
+        position: relative;
+        border: .1px solid #5e5c5c;
+        border-radius: 17px;
+        width: 20rem;
+        padding: 1.2rem;
+        .img{
+            width: 3rem;
+        }
+        p{
+            font-size: .7rem;
+            line-height: 1.2rem;
+            font-weight: 300;
+            // padding: 1rem 0;
+        }
+        .para{
+            padding: 1rem 0;
+        }
+        .absolute{
+            position: absolute;
+            right: 10%;
+            top: 10%;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-end;
+            p{
+               background: linear-gradient(94.77deg, rgba(15, 72, 159, 0.3) -106.7%, #4DFFFF 162.99%);
+             border-radius: 2px;
+             padding: 0 .1rem;
+            text-align: center;
+           
+            }
+            img{
+                margin: .6rem 0;
+            }
+        }
+    }
+
+}

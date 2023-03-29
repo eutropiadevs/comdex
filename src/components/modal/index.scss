@@ -1,5 +1,47 @@
-.oopen-modal_section{
+.open-modal_section{
+    border: 1px solid #1f1680;
+    background: rgb(14, 14, 85);
+    padding: 1rem;
+    span{
+       display: flex;
+       justify-content: flex-end;
+       font-size: 1.5rem;
+    }
+
+    .first{
+       padding-top: 2rem;
+    }
  &-title{
-    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
  }   
+ &-sub{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: .5rem;
+    padding: 1rem 0;
+    .content{
+        h3{
+            font-size: 1rem;
+            font-weight: 600;
+            padding-bottom: .1rem;
+        }
+        p{
+            font-size: .7rem;
+            font-weight: 300;
+        }
+    }
+ }
+}
+.open-modal{
+    position: absolute;
+    left: -200%;
+    top: 250%;
+}
+.modal-btn{
+    position: relative;
+  
 }
