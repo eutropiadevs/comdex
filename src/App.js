@@ -1,3 +1,4 @@
+import { Route, Routes } from "react-router-dom";
 import './App.scss';
 import Navbar from './components/navbar';
 import Home from './containers/home';
@@ -6,7 +7,10 @@ function App() {
   return (
    <>
   <Navbar/>
-  <Home/>
+  <Routes>
+    <Route path='*' element={<Home/>}/>
+  </Routes>
+ 
    </>
   );
 }
