@@ -46,6 +46,7 @@
 
         .cards{
             flex-wrap: wrap;
+            height: 40rem;
         }
   
 }
@@ -53,6 +54,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 20rem;
+    min-height: 20rem;
     gap: 2rem;
 }

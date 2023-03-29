@@ -11,7 +11,7 @@ const Row = () => {
           <div className="row-section_main-first">
             <div className="img-container">
              
-                <img src={large} alt="img" />
+                <img className="img-big" src={large} alt="img" />
                 <img className="img-small" src={small} alt="img" />
              
             </div>

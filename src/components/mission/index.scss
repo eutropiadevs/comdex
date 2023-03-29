@@ -1,0 +1,23 @@
+.mission-section{
+    &_main{
+        display: grid;
+        align-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 80vw;
+        margin: auto;
+        gap: 2rem;
+        .lootie{
+            grid-row-start: span 2;
+        }
+
+    }
+}
+@media (max-width: 750px){
+    .mission-section{
+        &_main{
+            gap: 3rem;
+            grid-template-columns: max-content;
+            justify-content: center;
+        }
+    }
+}

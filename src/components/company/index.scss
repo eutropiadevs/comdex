@@ -11,3 +11,11 @@
         }
     }
 }
+
+@media (max-width: 750px){
+    .company-section{
+        .companies{
+            flex-wrap: wrap;
+        }
+    }
+}

@@ -1,7 +1,7 @@
 .row-section{
     &_main{
-        width: 80vw;
-        // height: 0rem;
+        max-width: 80vw;
+        min-height: 40rem;
         margin: auto;
         display: flex;
         justify-content: center;
@@ -14,9 +14,12 @@
           
             .img-container{
                 position: relative;
-              
+              .img-big{
+                max-width: 25rem;
+              }
                 .img-small{
                    position: absolute;
+                   max-width: 13rem;
                    left: -16%;
                    bottom: -25%;
                 //    width: 10rem;
@@ -56,13 +59,14 @@
         &_main{
             flex-wrap: wrap;
             &-first{
-                width: 10rem;
+               
+            //  width: 90vw;
+            }
                 .img-container{
                     img{
-                        width: 10rem;
+                       max-width: 80vw; 
                     }
                 }
-            }
         }
     }
 }

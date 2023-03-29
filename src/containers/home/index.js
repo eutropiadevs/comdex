@@ -9,6 +9,8 @@ import Icons from "../../components/icons";
 import Cards from "../../components/cards";
 import Company from "../../components/company";
 import ComCards from "../../components/comCards";
+import Community from "../../components/community";
+import Mission from "../../components/mission";
 
 const Home = () => {
   return (
@@ -41,6 +43,8 @@ const Home = () => {
       <Cards/>
       <Company/>
       <ComCards/>
+	  <Community/>
+	  <Mission/>
 		</>
 	);
 };

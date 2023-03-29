@@ -8,6 +8,19 @@ import company6 from '../assets/img/12 1.png'
 import arrow from '../assets/img/arrow.png'
 import cswap from '../assets/img/cswap.png'
 
+
+import twitter from '../assets/img/twitter.png'
+import tele from '../assets/img/tele.png'
+import git from '../assets/img/git.png'
+import medium from '../assets/img/medium.png'
+import arrowside from '../assets/img/arrowside.png'
+
+
+import finance from '../assets/img/finance.png'
+import globe from '../assets/img/globe.png'
+import liquidity from '../assets/img/liquidity.png'
+import mdi from '../assets/img/mdi.png'
+
 export const item = [
 	{
 		id: 1,
@@ -63,5 +76,79 @@ export const data = [
 		btn: "LEARN MORE",
 		icon: arrow,
 		img: cswap,
+	},
+];
+
+
+export const card = [
+	{
+		id: 1,
+		icon: twitter,
+		title: "Twitter",
+		text: "Stay updated about the latest happening in the Comdex ecosystem.",
+		small: arrowside,
+	},
+	{
+		id: 2,
+		icon: tele,
+		title: "Telegram",
+		text: "Stay updated about the latest happening in the Comdex ecosystem.",
+		small: arrowside,
+	},
+	{
+		id: 3,
+		icon: medium,
+		title: "Twitter",
+		text: "Stay updated about the latest happening in the Comdex ecosystem.",
+		small: arrowside,
+	},
+	{
+		id: 4,
+		icon: git,
+		title: "Twitter",
+		text: "Stay updated about the latest happening in the Comdex ecosystem.",
+		small: arrowside,
+	},
+	{
+		id: 5,
+		icon: twitter,
+		title: "Twitter",
+		text: "Stay updated about the latest happening in the Comdex ecosystem.",
+		small: arrowside,
+	},
+	{
+		id: 6,
+		icon: twitter,
+		title: "Twitter",
+		text: "Stay updated about the latest happening in the Comdex ecosystem.",
+		small: arrowside,
+	},
+];
+
+
+export const mission = [
+	{
+		id: 1,
+		icon: finance,
+		title: `Democratize Finance`,
+		text: `Aggregate fragmented liquidity of bridged assets to improve efficiency in Cosmos DeFi markets.`,
+	},
+	{
+		id: 2,
+		icon: mdi,
+		title: `Democratize Finance`,
+		text: `Aggregate fragmented liquidity of bridged assets to improve efficiency in Cosmos DeFi markets.`,
+	},
+	{
+		id: 3,
+		icon: liquidity,
+		title: ` Concentrate Fragmented Liquidity`,
+		text: `Aggregate fragmented liquidity of bridged assets to improve efficiency in Cosmos DeFi markets.`,
+	},
+	{
+		id: 4,
+		icon: globe,
+		title: `Democratize Finance`,
+		text: `Aggregate fragmented liquidity of bridged assets to improve efficiency in Cosmos DeFi markets.`,
 	},
 ];

@@ -1,0 +1,19 @@
+.community-section{
+    &_main{
+        display: grid;
+        justify-items: center;
+        grid-template-columns: repeat(3, 1fr);
+        max-width: 80vw;
+        margin: auto;
+        gap: 3rem;
+    }
+}
+@media (max-width: 750px){
+    .community-section{
+        &_main{
+            gap: 3rem;
+            grid-template-columns: max-content;
+            justify-content: center;
+        }
+    }
+}
