@@ -1,7 +1,7 @@
 .missioncard-section{
     display: flex;
     // justify-content: center;
-    max-width: 15rem;
+   max-width: 15rem;
     align-items: flex-start;
     // border: 1px solid #fff;
     gap: .4rem;
@@ -27,8 +27,24 @@
    p{
     font-size: .7rem;
     font-weight: 300;
-    width: 13rem;
+    max-width: 13rem;
     padding: .5rem 0;
    }
+    }
+}
+@media (max-width: 300px){
+    .missioncard-section{
+       
+       &_sub{
+        h5{
+            font-size: .7rem;
+             line-height: 1rem;
+              max-width: 7rem;
+        }
+        p{
+            font-size: .6rem;
+           max-width: 7rem;
+        }
+       }
     }
 }

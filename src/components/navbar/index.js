@@ -21,7 +21,7 @@ const Navbar = () => {
 						<span className="navbar-toggle-icon"></span>
 					</button>
 				</div>
-				<div className='flex-content'>
+				<div className="flex-content">
 					<div>
 						<ul
 							className={`navbar-menu ${
@@ -29,7 +29,9 @@ const Navbar = () => {
 							}`}
 						>
 							<li className="nav-item">
-								<a href="/"><Modal/></a>
+								<a href="/">
+									<Modal />
+								</a>
 							</li>
 							<li className="nav-item">
 								<a href="/marketPlace">Developers</a>

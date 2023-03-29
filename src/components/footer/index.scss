@@ -1,0 +1,40 @@
+.footer-section{
+   
+    max-width: 80vw;
+    margin: auto;
+    hr{
+        max-width: 80vw;
+        margin:3rem auto;
+      border: .8px solid rgb(109, 108, 108);
+    }
+    &_main{
+    display: flex;
+   
+    justify-content: space-between;
+    .footer-flex{
+    //   max-width: 3rem;
+    img{
+        width: 8rem;
+    }
+    h3{
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: .9rem;
+    }
+    ul li,p{
+        list-style: none;
+        font-size: .8rem;
+        font-weight: 300;
+        line-height: 1.5rem;
+    }
+    }
+    }
+    .footer-copy{
+        display: flex;
+        height: 6rem;
+        align-items: center;
+        p{
+            font-size: .8rem;
+        }
+    }
+}

@@ -23,14 +23,14 @@ const Modal = () => {
 				<button onClick={handleOpenModal}>Individuals</button>
 				<div className="open-modal">
 					{isModalOpen && (
-						<div className="open-modal_section">
+						<div className="open-modal_section" onClick={handleCloseModal}>
 							<span onClick={handleCloseModal}>&#9747;</span>
 							<div className="open-modal_section-title">
 								<h4>Individuals</h4>
 								<h4>Developers</h4>
 								<h4>Ecosystem</h4>
 							</div>
-							<Link to='/introduction' className="open-modal_section-sub first" >
+							<Link to="/introduction" className="open-modal_section-sub first">
 								<div className="img">
 									<img src={intro} alt="img" />
 								</div>

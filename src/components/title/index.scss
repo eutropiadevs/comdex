@@ -29,3 +29,13 @@
         }
     }
 }
+
+@media (max-width: 500px){
+    .head-section{
+        &_sub{
+            h1{
+                font-size: 1.7rem;
+            }
+        }
+    }
+}

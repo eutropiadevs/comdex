@@ -1,21 +1,19 @@
 import React from 'react'
 import './index.scss'
-import logo from '../../assets/img/eco.png'
 
-const MainSection = () => {
+const MainSection = ({title, text, img}) => {
   return (
 		<>
 			<div className="mainsection">
 				<div className="mainsection-sub">
 					<div className="mainsection-sub_first">
-						<h1>Comdex Ecosystem</h1>
+						<h1>{title}</h1>
 						<p>
-							Explore Comdex's ecosystem of products and integrations and join
-							the community to be a part of it all.
+							{text}
 						</p>
 					</div>
 					<div className='ecosystem'>
-                        <img src={logo} alt='img'/>
+                        <img src={img} alt='img'/>
                     </div>
 				</div>
 			</div>

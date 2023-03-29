@@ -3,7 +3,19 @@
     .validator-section{
         &_main{
             flex-direction: column;
-            width: 100%;
+           max-width: 80vw;
+		   margin: auto;
+				&-second{
+					.validator-img{
+						gap: .2rem;
+						img {
+					
+						max-width: 1rem;
+						max-height: 1rem;
+                      
+				}
+					}
+				}
         }
         .vertical-line {
             display: none;
@@ -60,11 +72,11 @@
         }
 			.validator-img {
 				display: grid;
-				grid-template-columns: repeat(7, 3.5rem);
+				grid-template-columns: repeat(7, 1fr);
                 justify-items: center;
                 justify-content: center;
-                
-                margin: 1.5rem 0;
+                max-width: 40vw;
+                margin: 1.5rem auto;
 				img {
 					
 						width: 2.6rem;

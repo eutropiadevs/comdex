@@ -29,3 +29,19 @@
        }
     }
 }
+@media (max-width: 600px){
+ .comdexCard-section{
+    max-width: 90vw;
+    .main-img{
+        max-width: 90vw;
+    }
+    .comdexCard{
+        p{
+            font-size: .6rem;
+        }
+        h2{
+            font-size: .8rem;
+        }
+    }
+ }   
+}

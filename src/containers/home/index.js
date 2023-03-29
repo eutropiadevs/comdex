@@ -11,6 +11,7 @@ import Company from "../../components/company";
 import ComCards from "../../components/comCards";
 import Community from "../../components/community";
 import Mission from "../../components/mission";
+import Footer from "../../components/footer";
 
 const Home = () => {
   return (
@@ -45,6 +46,7 @@ const Home = () => {
       <ComCards/>
 	  <Community/>
 	  <Mission/>
+	  <Footer/>
 		</>
 	);
 };

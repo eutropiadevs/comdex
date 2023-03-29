@@ -40,7 +40,7 @@
 @media only screen and (max-width: 768px){
 
       .hero .hero-section  h1{
-            font-size: 3.4rem;
+            font-size: 2.8rem;
             line-height: 4rem;
         }
 
@@ -49,6 +49,13 @@
             height: 40rem;
         }
   
+}
+@media (max-width: 450px){
+     .hero .hero-section  h1{
+            font-size: 1.7rem;
+            line-height: 3rem;
+        
+        }
 }
 .cards{
     display: flex;
