@@ -12,7 +12,7 @@ const Mission = () => {
     <div className='mission-section_main'>
         <div className='lootie'>lootie</div>
         {mission.map(item=>{
-            return <MissionCard {...item}/>
+            return <MissionCard key={item.id} {...item}/>
         })}
     </div>
    </div>

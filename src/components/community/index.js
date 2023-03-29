@@ -11,7 +11,7 @@ const Community = () => {
         <Head title={'Join The Community'} head={'OUR COMMUNITY'}/>
         <div className='community-section_main'>
             {card.map(item=>{
-                return <ComunityCard {...item}/>
+                return <ComunityCard key={item.id} {...item}/>
             })}
         </div>
     </div>

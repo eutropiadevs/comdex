@@ -33,7 +33,7 @@ const Home = () => {
 			</div>
 			<div className="cards">
 				{Data.map((item) => {
-					return <CardTrans {...item} />;
+					return <CardTrans key={item.id} {...item} />;
 				})}
 			</div>
 			<Ecosystem />

@@ -11,7 +11,7 @@ const Cards = () => {
         <Head head={'DEVLOPERS'} title={'Why Build on Comdex'}/>
         <div className='cards-section_main'>
             {table.map(item=>{
-                return <Secure {...item}/>
+                return <Secure key={item.id} {...item}/>
             })}
         </div>
     </div>

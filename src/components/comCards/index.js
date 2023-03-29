@@ -11,7 +11,7 @@ const ComCards = () => {
         <Head title={'Recent Articles'} head={'EXPLORE'}/>
         <div className='comCards-section'>
             {data.map(item=>{
-                return <ComdexCard {...item}/>
+                return <ComdexCard key={item.id} {...item}/>
             })}
         </div>
     </div>

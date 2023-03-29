@@ -38,7 +38,7 @@ const Validator = () => {
 							{image.map((item) => {
 								return (
 									// <div key={item.id} className="image">
-									<img src={item.src} alt="img" className="image" />
+									<img src={item.src} alt="img" className="image" key={item.id}/>
 									// </div>
 								);
 							})}

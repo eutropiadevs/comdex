@@ -129,55 +129,55 @@ export const image = [
         src: ell1,
     },
     {
-        id:1,
+        id:2,
         src: ell2,
     },
     {
-        id:1,
+        id:3,
         src: ell3,
     },
     {
-        id:1,
+        id:4,
         src: ell4,
     },
     {
-        id:1,
+        id:5,
         src: ell5,
     },
     {
-        id:1,
+        id:6,
         src: ell6,
     },
     {
-        id:1,
+        id:7,
         src: ell7,
     },
     {
-        id:1,
+        id:8,
         src: ell8,
     },
     {
-        id:1,
+        id:9,
         src: ell9,
     },
     {
-        id:1,
+        id:10,
         src: ell10,
     },
     {
-        id:1,
+        id:11,
         src: ell11,
     },
     {
-        id:1,
+        id:12,
         src: ell12,
     },
     {
-        id:1,
+        id:13,
         src: ell13,
     },
     {
-        id:1,
+        id:14,
         src: ell14,
     },
 ]
