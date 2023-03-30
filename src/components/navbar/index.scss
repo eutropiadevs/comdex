@@ -17,13 +17,16 @@
 // }
 .navbar{
     display: flex;
-    justify-content: space-between;
-    padding: 1.5rem 7rem ;
+    justify-content: space-around;
+    // padding: 1.5rem 7rem ;
     z-index: 111;
     background: #8d8a8a27;
     align-items: center;
    position: fixed;
+   height: 4rem;
    width: 100vw;
+   margin: auto;
+  // width: 144rem;
     a{
         text-decoration: none;
         color: $white;
@@ -39,11 +42,15 @@
 .navbar-toggle {
     display: none;
   }
-
+.navbar-brand{
+  flex: 0 1 20rem;
+}
 .flex-content{
   display: flex;
- gap: 4rem;
+ flex: 0 1 50rem;
+ justify-content: space-between;
   align-items: center;
+
 }
 
 @media only screen and (max-width: 768px) {

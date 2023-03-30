@@ -1,6 +1,7 @@
 import React from 'react'
 import './index.scss'
 
+
 const StakeCard = ({ id, title, icon, small, text }) => {
 	return (
 		<>

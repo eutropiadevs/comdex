@@ -1,21 +1,37 @@
 .open-modal_section{
     border: 1px solid #1f1680;
-    background: rgb(14, 14, 85);
+    background: #09132B;
     padding: 1rem;
+    height: 448px;
+width: 360px;
+
+
     span{
        display: flex;
        justify-content: flex-end;
        font-size: 1.5rem;
+       
     }
 
     .first{
        padding-top: 2rem;
+//        width: 279px;
+// height: 32px;
+// left: 23px;
+// top: 113px;
     }
  &-title{
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 1.5rem;
+    font-family: Montserrat;
+font-size: 16px;
+font-weight: 600;
+line-height: 20px;
+letter-spacing: 0em;
+
+
  }   
  &-sub{
     display: flex;
@@ -32,6 +48,19 @@
         p{
             font-size: .7rem;
             font-weight: 300;
+//             height: 14px;
+// width: 226px;
+// left: 66px;
+// top: 267px;
+// border-radius: nullpx;
+// font-family: Montserrat;
+// font-size: 10px;
+// font-weight: 400;
+// line-height: 14px;
+// letter-spacing: 0em;
+// text-align: left;
+
+
         }
     }
  }

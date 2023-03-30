@@ -1,5 +1,6 @@
 import React from 'react'
 import EcoCard from '../../components/ecoCard';
+import Footer from '../../components/footer';
 import MainSection from '../../components/mainsection';
 import Plug from '../../components/plug';
 import RowReverse from '../../components/rowReverse';
@@ -25,7 +26,9 @@ const Introduction = () => {
 					<button>Learn More</button>
 				</div>
 			</div>
-			{/* <RowReverse /> */}
+		{item.map(item=>{
+			return <RowReverse {...item}/>
+		})}
 			<Validator />
 			<Plug />
 			<div className="stake-cards">
@@ -33,16 +36,7 @@ const Introduction = () => {
 					return <StakeCard key={item.id} {...item} />;
 				})}
 			</div>
-            <MainSection/>
-            <EcoCard/>
-            {simple.map(item=>{
-                return <RowReverse {...item} key={item.id}/>;
-            })}
-            
-
-            {item.map(item=>{
-                return <RowReverse {...item} key={item.id}/>
-            })}
+			<Footer/>
 		</>
 	);
 }
