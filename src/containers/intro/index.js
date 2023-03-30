@@ -1,13 +1,11 @@
 import React from 'react'
-import EcoCard from '../../components/ecoCard';
 import Footer from '../../components/footer';
-import MainSection from '../../components/mainsection';
 import Plug from '../../components/plug';
 import RowReverse from '../../components/rowReverse';
 import StakeCard from '../../components/stake';
 import Validator from '../../components/validators';
 import { card } from '../../utils/Items';
-import { item, simple } from '../../utils/section';
+import { item} from '../../utils/section';
 import './index.scss'
 
 const Introduction = () => {
@@ -27,7 +25,7 @@ const Introduction = () => {
 				</div>
 			</div>
 		{item.map(item=>{
-			return <RowReverse {...item}/>
+			return <RowReverse key={item.id} {...item}/>
 		})}
 			<Validator />
 			<Plug />
