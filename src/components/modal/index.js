@@ -5,7 +5,7 @@ import intro from '../../assets/img/intro.png'
 import { Link } from "react-router-dom";
 
 const Modal = () => {
-	const [isModalOpen, setIsModalOpen] = useState(true);
+	const [isModalOpen, setIsModalOpen] = useState(false);
 
 	function handleOpenModal(e) {
       e.preventDefault();

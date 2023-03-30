@@ -1,0 +1,17 @@
+.event-section{
+    max-width: 90vw;
+    margin: auto;
+    &_main{
+        .flex-content{
+            display: flex;
+            align-items: center;
+            img{
+                width: 33rem;
+            }
+        }
+    }
+    .eveCard{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}

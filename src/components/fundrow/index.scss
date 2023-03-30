@@ -1,0 +1,10 @@
+.fundrow-section{
+    &_row{
+        display: flex;
+
+    }
+    &_rowreverse{
+        display: flex;
+        flex-direction: row-reverse;
+    }
+}
