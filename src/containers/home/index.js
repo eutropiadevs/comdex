@@ -12,11 +12,21 @@ import ComCards from "../../components/comCards";
 import Community from "../../components/community";
 import Mission from "../../components/mission";
 import Footer from "../../components/footer";
+import bgred from '../../assets/img/bgred.png';
+import bgblue from '../../assets/img/bgblue.png';
+import blueeco from "../../assets/img/blueeco.png";
+import redeco from '../../assets/img/redeco.png';
 
 const Home = () => {
   return (
 		<>
 			<div className="hero">
+				{/* <div className="background"> */}
+					<img src={bgred} alt='bg-img' className="bg-red"/>
+					<img src={bgblue} alt='bg-img' className="bg-blue"/>
+					<img src={blueeco} alt='bg-img' className="blue-eco"/>
+					<img src={redeco} alt='bg-img' className="red-eco"/>
+				{/* </div> */}
 				<div className="hero-section">
 					<h1>
 						Interchain DeFi <br />

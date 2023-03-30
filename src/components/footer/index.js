@@ -1,6 +1,14 @@
 import React from "react";
 import logo from "../../assets/img/logo.png";
 import "./index.scss";
+import { FaMediumM } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaGithub } from "react-icons/fa";
+import { FaDiscord } from "react-icons/fa";
+import { FaTelegramPlane } from "react-icons/fa";
+import { FaTwitter } from "react-icons/fa";
+import { FaRegComments } from "react-icons/fa";
+// import { FaMediumM } from "react-icons/fa";``
 
 const Footer = () => {
 	const item = [
@@ -56,8 +64,14 @@ const Footer = () => {
 				</div>
 				<div className="footer-copy">
 					<p>&copy; {new Date().getFullYear()} Comdex. All Rights Reserved.</p>
-                    <div>
-
+                    <div className="react-icons fixed">
+					<p><FaTwitter/></p>
+					<p><FaTelegramPlane/></p>
+					<p><FaDiscord/></p>
+					<p><FaMediumM/></p>
+					<p><FaGithub/></p>
+					<p><FaLinkedin/></p>
+					<p><FaRegComments/></p>
                     </div>
 				</div>
 			</div>
