@@ -1,10 +1,12 @@
 .ecocard-section{
     &_main{
         position: relative;
-        border: .1px solid #5e5c5c;
+        // border: .1px solid #5e5c5c;
         border-radius: 17px;
         width: 20rem;
         padding: 1.2rem;
+       background: linear-gradient(133.91deg, rgba(15, 72, 159, 0.3) -2.91%, rgba(4, 12, 31, 0.38) 99.03%);
+   
         .img{
             width: 3rem;
         }
