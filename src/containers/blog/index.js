@@ -7,6 +7,10 @@ import icon from '../../assets/img/arrow.png'
 import { FaAngleDoubleRight } from "react-icons/fa";
 import claim from './claim.png'
 import Footer from '../../components/footer'
+import StakeCard from '../../components/stake'
+import { stake } from '../../utils/stakeData'
+import { data } from '../../utils/Items'
+import ComdexCard from '../../components/comdexCard'
 
 const Blog = () => {
   return (
@@ -19,7 +23,7 @@ const Blog = () => {
 				/>
 				<div className="blog-section_main">
 					<img src={main} alt="main" className="img" />
-					<div>
+					<div className="blog-section_main-content">
 						<p>Dec 5, 2022</p>
 						<h1>How $ATOM stakers can claim $HARBOR Airdrop?</h1>
 						<p>
@@ -35,22 +39,42 @@ const Blog = () => {
 						</div>
 					</div>
 				</div>
-
+				<div className="blogs-card">
+					{data.map((item) => {
+						return <ComdexCard key={item.id} {...item} />;
+					})}
+				</div>
 				<div className="airdrop">
 					<div>
-						<h2>AIRDROP IS LIVE!</h2>
+						<h2>
+							AIRDROP IS <strong>LIVE!</strong>
+						</h2>
 						<p>
 							Complete the mission, do magic transaction and claim your
 							Airdrop...
 						</p>
-                        <div className='claim-text'><span><FaAngleDoubleRight/></span>Claim Now</div>
+						<div className="claim-text">
+							<span>
+								<FaAngleDoubleRight />
+							</span>
+							<h4>Claim Now</h4>
+						</div>
 					</div>
 					<div>
-                        <img src={claim} alt='claim'/>
-                    </div>
+						<img src={claim} alt="claim" />
+					</div>
 				</div>
-
-                <Footer/>
+				<div className="blogs-card">
+					{data.map((item) => {
+						return <ComdexCard key={item.id} {...item} />;
+					})}
+				</div>
+				<div className="stake-cards">
+					{stake.map((item) => {
+						return <StakeCard key={item.id} {...item} />;
+					})}
+				</div>
+				<Footer />
 			</div>
 		</>
 	);

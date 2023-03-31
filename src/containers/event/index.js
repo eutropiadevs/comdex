@@ -3,8 +3,11 @@ import MainSection from '../../components/mainsection'
 import main from './../blog/planet.png'
 import over from './over.png'
 import './index.scss'
-import EveCard from '../../components/eventcard'
+import StakeCard from '../../components/stake'
+import { stake } from '../../utils/stakeData'
 import Footer from '../../components/footer'
+import icon from '../../assets/img/arrowside.png'
+import EventCard from './eventcard'
 
 const Event = () => {
   return (
@@ -18,9 +21,9 @@ const Event = () => {
 					img={main}
 				/>
 				<div className="event-section_main">
-					<h2>Upcoming Events</h2>
+					<h2 className="heading">Upcoming Events</h2>
 					<div className="flex-content">
-						<img src={over} alt="img" />
+						<img src={over} alt="img" className="img" />
 						<div>
 							<h5>Coming to Istanbul in 2023</h5>
 							<h2>The legendary Cosmos Conference</h2>
@@ -33,14 +36,25 @@ const Event = () => {
 								For more details & updates, follow us on Twitter and join our
 								Telegram community chat: hhtp.hbububjh...
 							</p>
+							<div className="btn-section">
+								<strong>LEARN MORE</strong>
+								<img src={icon} alt="img" />
+							</div>
 						</div>
 					</div>
 				</div>
-				<div className='eveCard'>
+
+				<EventCard />
+				{/* <div className="eveCard">
 					<EveCard />
 					<EveCard />
+				</div> */}
+				<div className="stake-cards">
+					{stake.map((item) => {
+						return <StakeCard key={item.id} {...item} />;
+					})}
 				</div>
-                <Footer/>
+				<Footer />
 			</div>
 		</>
 	);

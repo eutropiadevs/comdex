@@ -6,6 +6,7 @@ import Portal from "./containers/developer";
 import EcoGlobal from "./containers/ecosystem";
 import Event from "./containers/event";
 import Fund from "./containers/fund";
+import GetCmxd from "./containers/getcmdx";
 import Home from './containers/home';
 import Introduction from "./containers/intro";
 
@@ -21,6 +22,7 @@ function App() {
     <Route path="/blogs" element={<Blog/>}/>
     <Route path="/event" element={<Event/>}/>
     <Route path="/fund" element={<Fund/>}/>
+    <Route path="/cmxd" element={<GetCmxd/>}/>
   </Routes>
  
    </>

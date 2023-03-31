@@ -9,6 +9,7 @@ import { FaTelegramPlane } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
 import { FaRegComments } from "react-icons/fa";
 // import { FaMediumM } from "react-icons/fa";``
+// import bluef from '../../assets/img/bluef.png'
 
 const Footer = () => {
 	const item = [
@@ -43,6 +44,7 @@ const Footer = () => {
 	return (
 		<>
 			<div className="footer-section">
+				{/* <img src={bluef} alt='bluef'/> */}
 				<hr />
 				<div className="footer-section_main">
 					<div className="footer-flex">

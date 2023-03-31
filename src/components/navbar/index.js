@@ -25,7 +25,7 @@ const Navbar = () => {
 					<div>
 						<ul
 							className={`navbar-menu ${
-								isOpen ? "is-open navbar-nav" : "navbar-nav"
+								isOpen ? "is-open navbar-nav" : "navbar-nav height"
 							}`}
 						>
 							<li className="nav-item">

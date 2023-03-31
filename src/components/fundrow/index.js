@@ -1,7 +1,7 @@
 import React from 'react'
 import './index.scss'
 
-const FundRow = ({id, title, text, img, revtitle, revtext, revimg}) => {
+const FundRow = ({id, title, text, img}) => {
    
   return (
 		<>
@@ -13,13 +13,13 @@ const FundRow = ({id, title, text, img, revtitle, revtext, revimg}) => {
 						<p>{text}</p>
 					</div>
 				</div>
-				<div className="fundrow-section_rowreverse">
+				{/* <div className="fundrow-section_rowreverse">
 					<img src={revimg} alt="img" />
 					<div>
 						<h2>{revtitle}</h2>
 						<p>{revtext}</p>
 					</div>
-				</div>
+				</div> */}
 			</div>
 		</>
 	);

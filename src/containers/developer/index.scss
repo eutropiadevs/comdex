@@ -1,5 +1,6 @@
 .portal-section{
-    max-width: 80vw;
+    max-width: 90vw;
+    position: relative;
     margin: auto;
     &_cards{
         display: flex;
@@ -13,5 +14,29 @@
             font-weight: 800;
           padding-bottom: 2rem;
         }
+    }
+    .blue{
+        position: absolute;
+        right: 35%;
+        top: 3%;
+        z-index: -11;
+    }
+    .redeco{
+        position: absolute;
+        right: 0%;
+        top: 20%;
+         z-index: -11;
+    }
+    .circles{
+        position: absolute;
+        top: 2%;
+        right: 0%;
+         z-index: -11;
+    }
+    .bluef{
+        position: absolute;
+        bottom: 0%;
+        right: -5%;
+         z-index: -11;
     }
 }

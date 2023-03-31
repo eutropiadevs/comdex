@@ -9,6 +9,11 @@ import Cosmos from "../../components/cosmos";
 import { data } from "../../utils/Items";
 import ComdexCard from "../../components/comdexCard";
 import Footer from "../../components/footer";
+// import blue from '../getcmdx/blue.png'
+import redeco from '../../assets/img/redeco.png'
+import blue from "../../assets/img/blue.png";
+import circles from "../../assets/img/circles.png";
+import bluef from '../../assets/img/bluef.png'
 
 const Portal = () => {
 	const card = [
@@ -38,6 +43,10 @@ const Portal = () => {
 	return (
 		<>
 			<div className="portal-section">
+				<img src={blue} alt="img" className="blue"/>
+				<img src={redeco} alt="img" className='redeco'/>
+				<img src={circles} alt="img" className="circles"/>
+				<img src={bluef} alt="img" className="bluef"/>
 				<MainSection
 					title={`Developers Portal`}
 					text={`Comdex is a lightning fast blockchain optimised for building financial applications. Rapidly create massively scalable dApps with novel Web3 modules, ultra low fees and unmatched capital efficiency.`}

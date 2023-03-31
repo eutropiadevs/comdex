@@ -1,0 +1,24 @@
+.fund-section{
+    max-width: 90vw;
+    margin: auto;
+    .mt{
+        padding-top: 4rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 3rem;
+    }
+    .btn{
+        margin: 5rem 0;
+        text-align: center;
+       button{
+         border: 1px solid #fff;
+        background: transparent;
+       }
+    }
+}
+
+.btn-fund{
+    text-align: center;
+    margin: 3rem 0;
+}

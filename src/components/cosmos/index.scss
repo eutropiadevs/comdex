@@ -1,5 +1,10 @@
 .cosmos-section{
-  padding: 8rem 0;
+  padding: 3rem 0;
+  .cards-flex{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1.3rem;
+  }
 &_intro{
     h2{
         font-size: 3rem;
@@ -19,7 +24,7 @@
         // border: 1px solid #fff;
         background: #07193A;
         border-radius: 30px;
-        max-width: 23rem;
+        width: 23rem;
         padding: 1.6rem;
         // max-height: 35rem;
         h2{

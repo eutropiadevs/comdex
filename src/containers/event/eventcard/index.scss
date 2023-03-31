@@ -1,19 +1,24 @@
-.event-section {
-	max-width: 90vw;
-	margin: auto;
-
-.heading{
-    font-size: 2.4rem;
-    padding: 2.5rem 0;
+.sections{
+ margin: 7rem 0;
+ 
 }
 
-	&_main {
-		.flex-content {
-			display: flex;
-			align-items: flex-start;
-            min-height: 20rem;
-            gap: 3rem;
-			.img {
+
+.eventcard-section{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+    gap: 4rem;
+    .flex-contents{
+        display: flex;
+    flex-direction: column;
+    gap: 1rem;
+
+&_sub{
+    max-width: 30rem;
+    padding: 1rem;
+}
+
+    .img {
 				width: 33rem;
 			}
 			h2 {
@@ -53,10 +58,5 @@
 					font-weight: 700;
 				}
 			}
-		}
-	}
-	.eveCard {
-		display: grid;
-		grid-template-columns: repeat(2, 1fr);
-	}
+    }
 }

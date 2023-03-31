@@ -1,8 +1,9 @@
-.fundrow-section {
+.fundrow-sections {
     max-width: 90vw;
     margin: auto;
-	&_row {
+	&_rowreverse {
 		display: flex;
+        flex-direction: row-reverse;
 		justify-content: space-between;
 		align-items: center;
         img{

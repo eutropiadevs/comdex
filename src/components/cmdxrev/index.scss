@@ -1,0 +1,11 @@
+.cmdxrowreverse-sections{
+    display: flex;
+    flex-direction: row-reverse;
+    max-width: 80vw;
+    margin: auto;
+      &_second{
+        img{
+           width: 30rem;
+        }
+    }
+}

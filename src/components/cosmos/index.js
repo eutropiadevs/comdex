@@ -16,22 +16,63 @@ const Cosmos = () => {
 						voluptate velit esse cillum dolore eu fugiat nulla pariatur.
 					</p>
 				</div>
-				<div className="cosmos-section_cards">
-					<div className="cosmos-section_card">
-						<img src={circle} alt="circle" className='circle'/>
-						<h2>What is Cosmos</h2>
-						<div>
-							<ul style={{ listStyle: "none" }}>
-								<li>Introduction to Cosmos SDK</li>
-								<li>Building a Basic Cosmos Application</li>
-								<li>Interoperability with Cosmos Hub</li>
-								{/* <li>Introduction to Cosmos SDK</li> */}
-								{/* Additional list items */}
-							</ul>
+				<div className='cards-flex'>
+					<div className="cosmos-section_cards">
+						<div className="cosmos-section_card">
+							<img src={circle} alt="circle" className="circle" />
+							<h2>What is Cosmos</h2>
+							<div>
+								<ul style={{ listStyle: "none" }}>
+									<li>Introduction to Cosmos SDK</li>
+									<li>Building a Basic Cosmos Application</li>
+									<li>Interoperability with Cosmos Hub</li>
+									{/* <li>Introduction to Cosmos SDK</li> */}
+									{/* Additional list items */}
+								</ul>
+							</div>
+							<div className="btn-section">
+								<strong>LEARN MORE</strong>
+								<img src={icon} alt="img" />
+							</div>
 						</div>
-						<div className="btn-section">
-							<strong>LEARN MORE</strong>
-							<img src={icon} alt="img" />
+					</div>
+					<div className="cosmos-section_cards">
+						<div className="cosmos-section_card">
+							<img src={circle} alt="circle" className="circle" />
+							<h2>What is Cosmos</h2>
+							<div>
+								<ul style={{ listStyle: "none" }}>
+									<li>Introduction to Cosmos SDK</li>
+									<li>Building a Basic Cosmos Application</li>
+									<li>Interoperability with Cosmos Hub</li>
+									{/* <li>Introduction to Cosmos SDK</li> */}
+									{/* Additional list items */}
+								</ul>
+							</div>
+							<div className="btn-section">
+								<strong>LEARN MORE</strong>
+								<img src={icon} alt="img" />
+							</div>
+						</div>
+					</div>
+
+					<div className="cosmos-section_cards">
+						<div className="cosmos-section_card">
+							<img src={circle} alt="circle" className="circle" />
+							<h2>What is Cosmos</h2>
+							<div>
+								<ul style={{ listStyle: "none" }}>
+									<li>Introduction to Cosmos SDK</li>
+									<li>Building a Basic Cosmos Application</li>
+									<li>Interoperability with Cosmos Hub</li>
+									{/* <li>Introduction to Cosmos SDK</li> */}
+									{/* Additional list items */}
+								</ul>
+							</div>
+							<div className="btn-section">
+								<strong>LEARN MORE</strong>
+								<img src={icon} alt="img" />
+							</div>
 						</div>
 					</div>
 				</div>
