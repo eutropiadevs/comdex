@@ -17,7 +17,6 @@ import bgblue from '../../assets/img/bgblue.png';
 import blueeco from "../../assets/img/blueeco.png";
 import redeco from '../../assets/img/redeco.png';
 import bgsmall from '../../assets/img/bgsmall.png'
-import bluef from '../../assets/img/bluef.png'
 
 const Home = () => {
   return (
@@ -29,11 +28,13 @@ const Home = () => {
 					<img src={blueeco} alt='bg-img' className="blue-eco"/>
 					<img src={redeco} alt='bg-img' className="red-eco"/>
 					<img src={bgsmall} alt='bg-img' className="bgsmall"/>
-					<img src={bluef} alt='bg-img' className="bluef"/>
+					{/* <img src={bluef} alt='bg-img' className="bluef"/> */}
 				{/* </div> */}
 				<div className="hero-section">
 					<h1>
 						Interchain DeFi <br />
+						</h1>
+						<h1 className="h1">
 						Infrastructure
 					</h1>
 					<p>

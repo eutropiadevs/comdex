@@ -11,7 +11,6 @@ import springl from '../../assets/img/springl.png'
 import springr from '../../assets/img/springr.png'
 import boxl from '../../assets/img/boxl.png'
 import boxr from '../../assets/img/boxr.png' 
-import bluef from '../../assets/img/bluef.png'
 import './index.scss'
 
 const Introduction = () => {
@@ -24,7 +23,7 @@ const Introduction = () => {
 				<img src={boxr} alt='img' className='boxr'/>
 				<img src={boxl} alt='img' className='boxl-sec'/>
 				<img src={boxr} alt='img' className='boxr-sec'/>
-				<img src={bluef} alt='img' className='bluef'/>
+				{/* <img src={bluef} alt='img' className='bluef'/> */}
 				<div className="introduction-section_main">
 					<h1>Welcome to Comdex</h1>
 					<p>

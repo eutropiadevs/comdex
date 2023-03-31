@@ -2,7 +2,7 @@
     border: 1px solid #1f1680;
     background: #09132B;
     padding: 1rem;
-    height: 448px;
+    max-height: 448px;
 width: 360px;
 
 
@@ -68,7 +68,7 @@ letter-spacing: 0em;
 .open-modal{
     position: absolute;
     left: -150%;
-    top: 170%;
+    top: 140%;
 }
 .modal-btn{
     position: relative;
@@ -79,4 +79,13 @@ letter-spacing: 0em;
    width: 7rem;
    cursor: pointer;
   }
+}
+.none{
+    display: none;
+}
+.navlink{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: .9rem;
 }

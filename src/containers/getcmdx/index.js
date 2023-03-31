@@ -8,7 +8,6 @@ import './index.scss'
 import { stake } from "../../utils/stakeData";
 import StakeCard from "../../components/stake";
 import Footer from "../../components/footer";
-import bluef from '../../assets/img/bluef.png'
 import star from './star.png'
 import blue from './blue.png'
 
@@ -16,7 +15,7 @@ const GetCmxd = () => {
 	return (
 		<>
 			<div className="getcmdx-section">
-				<img src={bluef} alt='bluef' className="bluef"/>
+				{/* <img src={bluef} alt='bluef' className="bluef"/> */}
 				<img src={blue} alt='bluef' className="blue"/>
 				<img src={star} alt='star' className="star"/>
 				<MainSection title={"Get CMDX and Stake"} img={logo} />

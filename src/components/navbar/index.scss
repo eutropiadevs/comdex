@@ -25,10 +25,11 @@
    position: fixed;
   //  min-height: 4rem;
   // max-height: 20rem;
-   width: 100vw;
+  //  width: 100vw;
+  width: 90rem;
    margin: auto;
   // width: 144rem;
-    a{
+    NavLink{
         text-decoration: none;
         color: $white;
     }
@@ -45,6 +46,10 @@
   }
 .navbar-brand{
   flex: 0 1 20rem;
+}
+.navbar-brand .logo{
+  text-decoration: none;
+  width: 9.8rem;
 }
 .flex-content{
   display: flex;

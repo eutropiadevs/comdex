@@ -1,23 +1,26 @@
 import React from 'react'
 import { useState } from 'react';
+import { NavLink } from 'react-router-dom';
 import './index.scss';
 import logo from '../../assets/img/logo.png'
 import Modal from '../modal';
+import { navdev, naveco, navin } from '../../utils/navdata';
 
 const Navbar = () => {
     const [isOpen, setIsOpen] = useState(false);
 	// const [activeButton, setActiveButton] = useState("home");
-		function toggleMenu() {
+	// const [active, setActive] = useState(false)
+		const toggleMenu = () => {
 			setIsOpen(!isOpen);
 		}
   return (
 		<>
 			<nav className="navbar">
 				<div className="navbar-brand">
-					<a href="/">
+					<NavLink className='logo' to='/'>
 						<img src={logo} alt="logo" />
-					</a>
-					<button className="navbar-toggle" onClick={toggleMenu}>
+					</NavLink>
+					<button className="navbar-toggle" onClick={() => toggleMenu()}>
 						<span className="navbar-toggle-icon"></span>
 					</button>
 				</div>
@@ -29,15 +32,19 @@ const Navbar = () => {
 							}`}
 						>
 							<li className="nav-item">
-								<a href="/">
-									<Modal />
-								</a>
+								<NavLink className="navlink" href="/">
+									<Modal btn={`Indiviual`} data={navin} />
+								</NavLink>
 							</li>
 							<li className="nav-item">
-								<a href="/marketPlace">Developers</a>
+								<NavLink className="navlink" href="/marketPlace">
+									<Modal btn={`Developer`} data={navdev} />
+								</NavLink>
 							</li>
 							<li className="nav-item">
-								<a href="/creator">Ecosystem</a>
+								<NavLink className="navlink" href="/creator">
+									<Modal btn={`Ecosystem`} data={naveco} />
+								</NavLink>
 							</li>
 						</ul>
 					</div>

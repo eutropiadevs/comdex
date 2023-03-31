@@ -1,11 +1,17 @@
 .card-section{
-    width: 15rem;
+    width: 17rem;
+   
     &_main{
-        border: 1px solid #302f2f;
-        border-radius: 7px;
+        border: 1px solid #053277;
+        border-radius: 13px;
         padding: .8rem;
+         height: 8rem;
         span{
             font-size: 1.3rem;
+           
+        }
+        img{
+             padding-bottom: .4rem;
         }
         h2{
             font-size: 1.4rem;
