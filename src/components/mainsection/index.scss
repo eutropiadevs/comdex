@@ -29,10 +29,13 @@
 
 @media (max-width:800px){
     .mainsection{
+        padding-top: 10rem;
         &-sub{
             flex-wrap: wrap;
+            min-height: 20rem;
              .ecosystem img{
             width: 9rem;
+           
         }
         }
 

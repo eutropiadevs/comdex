@@ -17,16 +17,18 @@
 // }
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     padding: 1.5rem 0 ;
     z-index: 111;
-    background: #0f0f0f27;
+    background: $nav-color;
     align-items: center;
-   position: fixed;
+  //  position: fixed;
+  position: sticky;
+  top: 0%;
   //  min-height: 4rem;
   // max-height: 20rem;
   //  width: 100vw;
-  width: 90rem;
+  max-width: 90rem;
    margin: auto;
   // width: 144rem;
     NavLink{
@@ -45,7 +47,7 @@
     display: none;
   }
 .navbar-brand{
-  flex: 0 1 20rem;
+  // flex: 0 1 20rem;
 }
 .navbar-brand .logo{
   text-decoration: none;
@@ -70,6 +72,16 @@
  .navbar{
   display: flex;
   flex-direction: column;
+  // position: absolute;
+  
+  .flex-content{
+  display: flex;
+ flex: 0 1 1rem;
+ justify-content: space-between;
+  align-items: center;
+  position: absolute;
+
+}
   // max-height: 10rem;
  }
 //  .height{
