@@ -1,20 +1,6 @@
 @import '../../assets/variables.scss';
 
-// .navbar{
-//   position: absolute;
-// width: 1440px;
-// height: 80px;
-// left: 0px;
-// top: 0px;
-//  display: flex;
-//     justify-content: space-around;
-//      padding: 1.5rem 0 ;
 
-//       a{
-//         text-decoration: none;
-//         color: $white;
-//     }
-// }
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -25,9 +11,7 @@
   //  position: fixed;
   position: sticky;
   top: 0%;
-  //  min-height: 4rem;
-  // max-height: 20rem;
-  //  width: 100vw;
+ 
   max-width: 90rem;
    margin: auto;
   // width: 144rem;
@@ -46,9 +30,7 @@
 .navbar-toggle {
     display: none;
   }
-.navbar-brand{
-  // flex: 0 1 20rem;
-}
+
 .navbar-brand .logo{
   text-decoration: none;
   width: 9.8rem;
@@ -72,6 +54,7 @@
  .navbar{
   display: flex;
   flex-direction: column;
+   background: $nav-color;
   // position: absolute;
   
   .flex-content{
@@ -79,7 +62,10 @@
  flex: 0 1 1rem;
  justify-content: space-between;
   align-items: center;
+   background: $nav-color;
+   width: 100%;
   position: absolute;
+  top: 90%;
 
 }
   // max-height: 10rem;

@@ -7,23 +7,13 @@ import StakeCard from '../../components/stake';
 import Validator from '../../components/validators';
 import { rev, row1, row2 } from '../../utils/row';
 import { stake } from '../../utils/stakeData';
-import springl from '../../assets/img/springl.png'
-import springr from '../../assets/img/springr.png'
-import boxl from '../../assets/img/boxl.png'
-import boxr from '../../assets/img/boxr.png' 
 import './index.scss'
 
 const Introduction = () => {
   return (
 		<>
 			<div className="introduction-section">
-				<img src={springl} alt='img' className='springl'/>
-				<img src={springr} alt='img' className='springr'/>
-				<img src={boxl} alt='img' className='boxl'/>
-				<img src={boxr} alt='img' className='boxr'/>
-				<img src={boxl} alt='img' className='boxl-sec'/>
-				<img src={boxr} alt='img' className='boxr-sec'/>
-				{/* <img src={bluef} alt='img' className='bluef'/> */}
+				
 				<div className="introduction-section_main">
 					<h1>Welcome to Comdex</h1>
 					<p>
